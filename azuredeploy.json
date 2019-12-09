@@ -22,8 +22,7 @@
 				"6.6.2",
                 "6.6.3",
                 "7.2.1",
-                "7.5.0",
-                "8.1.1"
+                "7.5.0"
             ]
         },
         "skuName": {
@@ -106,8 +105,8 @@
                         "[concat('Microsoft.Web/Sites/', parameters('siteName'), '/config/web')]"
                     ],
                     "properties": {
-                        "RepoUrl": "https://github.com/SaintSkeeta/Solr-AzureAppService",
-                        "branch": "Sitecore-930",
+                        "RepoUrl": "https://github.com/jraps20/Solr-AzureAppService",
+                        "branch": "Sitecore",
                         "IsManualIntegration": true
                     }
                 }
